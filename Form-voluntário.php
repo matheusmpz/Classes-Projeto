@@ -52,7 +52,7 @@ throw new Exception("O nome do cliente é obrigatório");
 if(!filter_var($this->emailCliente,FILTER_VALIDATE_EMAIL)){
 throw new Exception("O e-mail informado é inválido");
 }
-//validar o id
+//validar o id//
 if(!is_numeric($this->idUser)){
 throw new Exception("O ID do usuário deve ser um número");
 }
