@@ -46,5 +46,5 @@
     }
     
     $usuario->alterarSenha("novaSenha123");
-    echo "Senha alterada com sucesso!<br>";
+    echo "Senha alterada com sucesso!<br>";3
 ?>
