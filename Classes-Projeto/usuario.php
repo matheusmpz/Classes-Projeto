@@ -5,6 +5,7 @@
        protected $email;
        protected $senha;
        protected $dataCadastro;
+       
        public function __construct($nome, $idUser, $email, $senha, $dataCadastro) {
            $this->nome = $nome;
            $this->idUser = $idUser;
